@@ -1,0 +1,56 @@
+[
+    {
+        "precio": 1200,
+        "nombre": "6 COOKIES DE CHOCOLATE",
+        "id": 5,
+        "image": "images/cookies.png"
+    },
+    {
+        "precio": 1350,
+        "nombre": "4 ROLLS DE CANELA",
+        "id": 6,
+        "image": "images/roll.png"
+    },
+    {
+        "precio": 1800,
+        "nombre": "COFFEE BOX",
+        "id": 7,
+        "image": "images/box.png"
+    },
+    {
+        "precio": 1700,
+        "nombre": "VEGAN BOX",
+        "id": 8,
+        "image": "images/box2.png" 
+    },
+    {
+        "precio": 1500,
+        "nombre": "BRASIL x 500gr",
+        "id": 1,
+        "image": "images/granocafe.png"
+    },
+    {
+        "precio": 1450,
+        "nombre": "GUATEMALA x 250gr",
+        "id": 2,
+        "image": "images/granocafe.png"
+    },
+    {
+        "precio": 1600,
+        "nombre": "COLOMBIA x 500gr",
+        "id": 3,
+        "image": "images/granocafe.png"
+    },
+    {
+        "precio": 1650,
+        "nombre": "COSTA RICA x 250gr",
+        "id": 4,
+        "image": "images/granocafe.png"
+    },
+    {
+        "precio": 1800,
+        "nombre": "ETIOPÍA x 500gr",
+        "id": 9,
+        "image": "images/granocafe.png"
+    }
+]

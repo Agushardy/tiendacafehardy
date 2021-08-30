@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    text-align: center;
+    font-family: 'WindSong', cursive;
+    padding-top: 2.5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+nav a {
+    font-family: 'Roboto Slab', serif;
+}
+
+.bienvenida {
+    padding-top: 2rem;
+}
+
+.bienvenida em {
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    justify-content: center;
+}
+
+/* Desktop */
+@media only screen and (min-width: 961px) {
+    .slide {
+        padding-top: 2rem;
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+}
+
+.filter {
+    display: none;
+}
+
+form {
+    font-family: 'Roboto Slab', serif;
+    padding: 5rem;
+}
+
+.finalizarCompra {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    padding: 5rem;
+    color: rgb(121, 117, 113);
+}
+
+.finalizarCompra h6 {
+    padding-bottom: 4rem;
+}
+
+.contenidoForm {
+    display: none;
+}
