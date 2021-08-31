@@ -133,25 +133,6 @@ const btnAccion = (e) => {
     e.stopPropagation()
 }
 
-
-/* ESTE ES EL FORMULARIO QUE VA
-                    <form id="template-form">
-                    <div class="mb-3">
-                    <label class="form-label">Email</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    </div>
-                    <div class="mb-3">
-                    <label class="form-label">Numeric Password</label>
-                    <input type="numbers" class="form-control" id="274012">
-                    </div>
-                    <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Enviar notificaciones</label>
-                    </div>
-                    <button type="submit" class="btn btn-dark">Iniciar cuenta</button>
-                    </form>
-*/
-
 //Formulario - Crear cuenta
 $('form').prepend(` <form id="template-form">
                     <label class="form-label">Email</label>
@@ -162,7 +143,7 @@ $('form').prepend(` <form id="template-form">
                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
                     <label class="form-check-label" for="exampleCheck1">Enviar notificaciones</label>
                     </div>
-                    <button type="submit" class="btn btn-dark">Iniciar cuenta</button>
+                    <button id="btn1" type="submit" class="btn btn-dark">Iniciar cuenta</button>
                     </form>
                 `);
 
@@ -173,4 +154,21 @@ $('#template-form').submit(function (e) {
     console.log(datos[1].value);
     //password
     console.log(datos[3].value);
+});
+
+//Llamada AJAX - Iniciar Cuenta
+const URLJSON = "json/datos.json"
+$("#btn1").click(() => {
+    $.getJSON(URLJSON, function(respuesta, estado) {
+        if(estado === "success") {
+            let misDatos = respuesta;
+            for (const dato of misDatos) {
+                $("#datos").prepend(`<div>
+                                    <h3>$(dato.email)</h3>
+                                    <P>$(dato.contra)</p>
+                                  </div>`)
+            }
+            alert ("revisá tu mail para confirmar")
+        }
+    });
 });

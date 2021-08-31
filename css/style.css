@@ -43,6 +43,11 @@ form {
     padding: 5rem;
 }
 
+.datos {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
 .finalizarCompra {
     text-align: center;
     font-family: 'Roboto Slab', serif;

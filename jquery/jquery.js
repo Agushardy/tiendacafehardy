@@ -24,7 +24,7 @@ $('form').prepend(` <form id="template-form">
                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
                     <label class="form-check-label" for="exampleCheck1">Enviar notificaciones</label>
                     </div>
-                    <button type="submit" class="btn btn-dark">Iniciar cuenta</button>
+                    <button id="btn1" type="submit" class="btn btn-dark">Iniciar cuenta</button>
                     </form>
                 `);
 

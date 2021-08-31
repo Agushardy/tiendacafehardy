@@ -1,0 +1,14 @@
+[
+    {
+        "userId": 1,
+        "id": 1,
+        "mail": "agustinahardy@live.com.ar",
+        "contra": "214012"
+    },
+    {
+        "userId": 1,
+        "id": 2,
+        "mail": "ahardy@gmail.com",
+        "contra": "122034"
+    }
+]
