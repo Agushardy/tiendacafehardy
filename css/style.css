@@ -17,6 +17,7 @@ nav a {
 
 .bienvenida {
     padding-top: 2rem;
+    padding-bottom: 4rem;
 }
 
 .bienvenida em {
@@ -61,4 +62,25 @@ form {
 
 .contenidoForm {
     display: none;
+}
+
+
+.footer img:hover {
+    filter: saturate(0.5);
+}
+
+.footer {
+    padding: 4rem;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+}
+
+.footer p {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
 }
